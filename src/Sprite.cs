@@ -20,10 +20,10 @@ namespace FWD
         public Bitmap _Sprite { get => sprite; set => sprite = value; }
         public string Name { get => name; set => name = value; }
 
-        public static Sprite fromFile(string name, int x, int y)
+        /*public static Sprite fromFile(string name, int x, int y)
         {
             System.Drawing.Bitmap bitmap = (System.Drawing.Bitmap)System.Drawing.Image.FromFile(name);
             return new Sprite(x, y, Bitmap.fromGdiBitmap(bitmap), name);
-        }
+        }*/
     }
 }
