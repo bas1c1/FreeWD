@@ -24,7 +24,7 @@ namespace FWD
             {
                 Gdi32Methods.SetPixel(device, pixel.X, pixel.Y, Gdi32Helpers.Bgr32((uint)pixel.Color.R, (uint)pixel.Color.G, (uint)pixel.Color.B));
             }
-            //User32Methods.ReleaseDC(hwnd, device);
+            User32Methods.ReleaseDC(hwnd, device);
         }
     }
 }
